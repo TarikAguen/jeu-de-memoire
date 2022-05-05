@@ -1,0 +1,23 @@
+body {
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  letter-spacing: 5px;
+  font-family: 'Koulen', cursive;
+}
+h2 {
+  letter-spacing: 3px;
+  font-size: larger;
+  font-family: 'Koulen', cursive;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 300px;
+  gap: 8px;
+}
